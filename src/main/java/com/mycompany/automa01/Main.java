@@ -1,16 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.automa01;
 
-/**
- *
- * @author kevin
- */
+/*@author kevin*/
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        String cinta = "0101010101011010";
+        Automata01 automata01 = new Automata01(cinta);
+        System.out.println("La cadena "+cinta+" es valida? "+automata01.estadoA(0));
+        
     }
 }
